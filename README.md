@@ -46,4 +46,5 @@ After deployment, Terraform will output the ALB DNS name. Use this to access the
 bash
 ```
 curl http://<alb_dns_name>/blockNumber
+curl http://localhost:8080/blockNumber 
 ```
