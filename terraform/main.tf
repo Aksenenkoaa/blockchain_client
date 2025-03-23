@@ -18,7 +18,7 @@ resource "aws_ecs_task_definition" "task" {
   container_definitions = jsonencode([
     {
       name      = "blockchain-client"
-      image     = "blockchain-client:latest" # Use your Docker image name
+      image     = "943042306788.dkr.ecr.us-east-1.amazonaws.com/blockchain-client" # Use your Docker image name
       essential = true
       portMappings = [
         {
